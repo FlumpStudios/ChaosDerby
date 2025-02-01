@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/Leaderboard.uss?fileID=7433441132597879392&amp;guid=39c195c6d46fff148b14e0f394e04f69&amp;type=3#Leaderboard" />
+    <ui:VisualElement name="leaderboard-main-panel" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.8); align-items: center; display: none;">
+        <ui:VisualElement name="leaderboard-panel" class="leaderboard-panel">
+            <ui:Label tabindex="-1" text="LEADERBOARD" name="leaderboard-title" class="leaderboard-title" />
+            <ui:VisualElement name="leaderboard" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 80%;">
+                <ui:VisualElement name="leaderboard-titles" style="background-color: rgba(0, 0, 0, 0); flex-direction: row; margin-bottom: 20px; display: flex; word-spacing: 100px;">
+                    <ui:VisualElement name="rank-title" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 160px;">
+                        <ui:Label tabindex="-1" text="RANK" display-tooltip-when-elided="true" name="rank" class="leaderboard-line-label" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="name-title" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 450px;">
+                        <ui:Label tabindex="-1" text="NAME" display-tooltip-when-elided="true" name="name" class="leaderboard-line-label" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="time-title" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 220px;">
+                        <ui:Label tabindex="-1" text="TIME" display-tooltip-when-elided="true" name="time" class="leaderboard-line-label" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ping-title" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 150px;">
+                        <ui:Label tabindex="-1" text="PING" display-tooltip-when-elided="true" name="ping" class="leaderboard-line-label" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="leaderboard-container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
