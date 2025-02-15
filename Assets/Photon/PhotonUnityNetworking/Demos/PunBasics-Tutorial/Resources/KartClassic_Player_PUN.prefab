@@ -4437,13 +4437,13 @@ GameObject:
   - component: {fileID: 6118829021792142207}
   - component: {fileID: 503617257554001020}
   - component: {fileID: 4339974076258160110}
-  - component: {fileID: 8250083834205068646}
   - component: {fileID: 8565748282335994447}
   - component: {fileID: -3331820226627108796}
   - component: {fileID: -6120861691415664910}
   - component: {fileID: 7803393552928153356}
   - component: {fileID: 5923339033495779245}
   - component: {fileID: 7248119616588328185}
+  - component: {fileID: 3706380032652901181}
   m_Layer: 2
   m_Name: KartClassic_Player_PUN
   m_TagString: Player
@@ -4645,29 +4645,13 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
-  - {fileID: 8250083834205068646}
   - {fileID: 8565748282335994447}
+  - {fileID: 3706380032652901181}
   - {fileID: 8802032910478373528}
   - {fileID: 291824640349824493}
   sceneViewId: 2
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &8250083834205068646
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8966467527850851934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizePosition: 1
-  m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0
-  m_UseLocal: 0
 --- !u!114 &8565748282335994447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4763,6 +4747,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   valY: 0
   valX: 0
+--- !u!114 &3706380032652901181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8966467527850851934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizeVelocity: 1
+  m_SynchronizeAngularVelocity: 1
+  m_TeleportEnabled: 0
+  m_TeleportIfDistanceGreaterThan: 3
 --- !u!1001 &6709062676101749953
 PrefabInstance:
   m_ObjectHideFlags: 0
